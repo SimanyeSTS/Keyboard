@@ -1,0 +1,22 @@
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+/*class uses a dot while id uses #*/
+.keyboard{
+    display: flex;
+}
+.key{
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
